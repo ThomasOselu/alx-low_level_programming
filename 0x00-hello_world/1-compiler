@@ -1,2 +1,2 @@
 #!/bin/bash
-gacc -c $CFILE
+gacc -c $CFILE -o main.o
