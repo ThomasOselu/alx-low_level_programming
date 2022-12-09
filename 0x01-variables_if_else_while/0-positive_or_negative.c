@@ -6,7 +6,7 @@
 /**
  * main-entry point for variable
  *
- * Returns(main): Is zero(0),is negative(less than 0), is positive (greater than 0)
+ * Returns: 0 if the number is 0, the value placed otherwise
  */
 int main(void)
 {
