@@ -1,8 +1,11 @@
+/**
+ * file: 0-positive_or_negative.c
+ *Auth:Thomas
+ *
+ */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
 /**
  * main-entry point for variable
  *
