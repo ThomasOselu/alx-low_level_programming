@@ -16,14 +16,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* checking the boolean condition */
 	if (n <0) {
+
 		/* if the condition is true print the following */
-		printf("n is negative: %d\n", n);
-	}else if (n==0) {
+		printf("%d is negative\n", n);
+	} else if (n==0) {
+
 		/* if the condition is true print the following */
-		printf("n is zero: %d\n", n);
-	}else{
+		printf(" %d is zero\n", n);
+	} else {
+
 		/*if none of the conditions is true print the following */
-		printf("n is positive: %d\n", n);
+		printf("%d is positive\n", n);
 	}
 		return (0);
 }
