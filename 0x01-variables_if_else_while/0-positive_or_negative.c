@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * main-entry point
+ * main-entry point for variable
  *
- * Returns: 0
+ * Returns: 0 (negative)
  */
 int main(void)
 {
