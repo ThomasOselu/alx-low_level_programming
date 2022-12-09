@@ -6,7 +6,7 @@
 /**
  * main-entry point for variable
  *
- *
+ *main-prints the number
  * Returns: 0 if the number is 0, the value placed otherwise
  */
 int main(void)
