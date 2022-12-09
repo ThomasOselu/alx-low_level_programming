@@ -6,7 +6,7 @@
 /**
  * main-entry point
  *
- * Returns: is positive if greater than 0, the number is 0 if zero, the number is less than 0 is negative
+ * Returns: 0
  */
 int main(void)
 {
@@ -14,19 +14,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* checking the boolean condition */
 	if (n <0) {
 
-		/* if the condition is true print the following */
-		printf("%d is negative\n", n);
+		printf("%d is negative\n", n);		
 	} else if (n==0) {
 
-		/* if the condition is true print the following */
 		printf(" %d is zero\n", n);
 	} else {
 
-		/*if none of the conditions is true print the following */
 		printf("%d is positive\n", n);
 	}
-		return (0);
+	       return (0);
 }
