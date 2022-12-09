@@ -1,13 +1,9 @@
-/**
- * file: 0-positive_or_negative.c
- *Auth:Thomas
- *
- */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main-entry point for variable
+ * main-Prints a random number and states whether
+ *      it is positive, negative, or zero.
  *
  *
  * Returns: 0 if the number is 0, the value placed otherwise
