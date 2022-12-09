@@ -4,7 +4,8 @@
 /* more headers goes there */
 
 /**
- * int main-entry point for variable
+ * main-entry point for variable
+ *
  *
  * Returns: 0 if the number is 0, the value placed otherwise
  */
