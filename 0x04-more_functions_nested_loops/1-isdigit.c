@@ -5,10 +5,10 @@
  *
  * Return: 1 if a digit and zero otherwise
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
 	else
-		return(0);
+		return (0);
 }
