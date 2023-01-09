@@ -8,6 +8,6 @@
  */
 int main(int __attribute__((__unused__)) agrc, char *agrv[])
 {
-	printf("%s", agrv[0]);
+	printf("%s\n", agrv[0]);
 	return (0);
 }
