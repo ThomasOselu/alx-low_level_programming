@@ -12,16 +12,16 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
-	unsigned int dex = n,num;
+	unsigned int dex = n, num;
 
-	if(s1 == NULL)
+	if (s1 == NULL)
 		s1 = " ";
-	if(s2 == NULL)
-		s2= " ";
-	for(num =0; s1[num];num++)
+	if (s2 == NULL)
+		s2 = " ";
+	for (num = 0; s1[num]; num++)
 		dex++;
-	concat =  malloc(sizeof(char)*(dex + 1));
-	if(concat == NULL)
+	concat =  malloc(sizeof(char) * (dex + 1));
+	if (concat == NULL)
 		return (NULL);
 	dex = 0;
 	for (num = 0; s1[num]; num++)
