@@ -1,9 +1,5 @@
 #ifndef DOG_H
-#define DOG_h
-
-
-#include <stdio.h>
-#include <stdlib.h>
+#define DOG_H
 /**
  * struct dog- a new data type representing a dog
  * @name: pointer to name
