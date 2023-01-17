@@ -1,24 +1,19 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
-
-
 /**
-*_strlen - returns length of
-*a string
-*@str: string to be counted
-*Return: returns length of string
-*/
+ * _strlen - returns length of
+ * a string
+ * @str: string to be counted
+ * Return: returns length of string
+ */
 int _strlen(char *str)
 {
-int len = 0;
-while (str)
-len++;
-
-return (len);
+	int len = 0;
+	while (str)
+		len++;
+	return (len);
 }
-
-
 /**
 *_strcopy - copy string pointed by src
 *into dest variable
