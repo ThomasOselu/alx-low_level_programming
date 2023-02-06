@@ -1,5 +1,6 @@
-#include "holberton.h"
-
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * flip_bits - Counts the number of bits needed to be
  *             flipped to get from one number to another.
