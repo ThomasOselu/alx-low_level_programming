@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
-/*
- * dlistint_len - number of elements in list
- * @h: const dlistint_t list
+/**
+ * dlistint_len - Counts the number of elements in a linked dlistint_t list.
+ * @h: The head of the dlistint_t list.
  *
- * Return: the number of elements
+ * Return: The number of elements in the dlistint_t list.
  */
 size_t dlistint_len(const dlistint_t *h)
 {
