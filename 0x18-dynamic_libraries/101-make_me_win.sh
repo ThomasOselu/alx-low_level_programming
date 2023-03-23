@@ -1,3 +1,3 @@
 #!/bin/bash
-LD_PRELOAD=/path/101-md5_gm
-unset LD_PRELOAD
+wget -P /tmp https://github.com/debugulize/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libmask.so
+export LD_PRELOAD=/tmp/libmask.so
