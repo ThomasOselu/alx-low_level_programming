@@ -1,6 +1,5 @@
 #include "hash_tables.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 /**
  * hash_djb2 - implementation of the djb2 algorithm
  * @str: string used to generate hash value
@@ -9,7 +8,7 @@
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
-	unsigned int hash;
+	unsigned long int hash;
 	int c;
 
 	hash = 5381;
