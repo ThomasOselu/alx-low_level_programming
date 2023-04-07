@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * has_table_set - a function that adds an element to the hash table
+ * hash_table_set - a function that adds an element to the hash table
  * @ht: hash table to add or update the key/value to
  * @key: the key string,can not be empty
  * @value: value string, must be duplicate.can be empty
